@@ -1,3 +1,4 @@
+//convert the given time into seconds
 #include <iostream>
 using namespace std;
 
