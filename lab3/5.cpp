@@ -11,7 +11,9 @@ void display(dist d);
 
 int main()
 {
-    dist d = {12, 21};
+    dist d;
+    cout << "enter the distance in feet and inches: ";
+    cin >> d.feet >> d.inches;
     scale(d);
 }
 
