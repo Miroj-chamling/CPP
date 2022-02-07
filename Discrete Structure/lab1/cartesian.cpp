@@ -28,8 +28,8 @@ int main()
             cout << "(" << A[i] << " " << B[j] << ")";
         }
     }
-    cout << "\n";
     cout << "}";
+    cout << "\n";
     cout << "B X A: ";
     cout << "{";
     for (int i = 0; i < n; i++)

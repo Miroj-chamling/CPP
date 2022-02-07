@@ -19,16 +19,18 @@ int main()
     {
         cin >> B[j];
     }
+    cout << "{";
     for (i = 0; i < n; i++)
     {
         for (j = 0; j < m; j++)
         {
             if (A[i] == B[j])
             {
-                cout << A[i];
+                cout << A[i] << " ,";
             }
         }
     }
+    cout << "}";
 
     return 0;
 }
