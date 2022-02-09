@@ -9,12 +9,10 @@ private:
 public:
     AddAmount()
     {
-        amount = 50;
     }
 
     AddAmount(int addedAmount)
     {
-        amount = 50;
         amount += addedAmount;
     }
 

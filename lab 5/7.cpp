@@ -8,11 +8,11 @@ private:
     char name[30];
 
 public:
-    Employee(int x, int y, char n[30])
+    Employee(int x, int y, char n)
     {
         id = x;
         salary = y;
-        name[30] = n[30];
+        name[30] = n;
     }
 };
 
